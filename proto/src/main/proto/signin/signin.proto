@@ -44,7 +44,7 @@ message LocalSigninRequest {
 }
 
 message SigninResponse {
-    common.Error error = 1;
+    common.Status status = 999;
     string accessToken = 2;
     string expiresIn = 3;
 }
