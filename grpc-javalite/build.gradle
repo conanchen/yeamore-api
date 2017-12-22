@@ -47,6 +47,15 @@ clean {
     delete protobuf.generatedFilesBaseDir
 }
 
+
+jar{
+    exclude (
+            "/**/google/**",
+            "**/*.proto"
+    )
+}
+
+
 idea {
     module {
         // If you have additional sourceSets and/or codegen plugins, add all of them

@@ -40,6 +40,13 @@ clean {
 }
 
 
+jar{
+    exclude (
+            "/**/google/**",
+            "**/*.proto"
+    )
+}
+
 idea {
     module {
         sourceDirs += file("${protobuf.generatedFilesBaseDir}/main/java")
