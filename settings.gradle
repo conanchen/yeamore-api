@@ -1,4 +1,4 @@
-rootProject.name = 'yemore-api'
+rootProject.name = 'yemore-api-grpc'
 include 'proto'
 include 'grpc-javalite'
 include 'grpc-java'
